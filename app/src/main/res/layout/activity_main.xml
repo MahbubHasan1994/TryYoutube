@@ -16,12 +16,22 @@
 
 
         <Button
+            android:id="@+id/getButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@id/youtubeAPI"
+            android:layout_marginTop="3dp"
+            android:text="get"
+            android:textAlignment="center" />
+
+        <Button
             android:id="@+id/okButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="play"/>
-
+            android:layout_below="@id/youtubeAPI"
+            android:layout_alignRight="@+id/getButton"
+            android:layout_marginTop="63dp"
+            android:text="play"
+            android:textAlignment="center" />
 
 </RelativeLayout>
